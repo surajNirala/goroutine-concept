@@ -45,7 +45,18 @@ func main() {
 	// example1()
 	// example2()
 	// example3()
-	example4()
+	// example4()
+	golangSmallTips()
+}
+
+func golangSmallTips() {
+	customArr := [...]int{1, 324, 3, 2}
+	fmt.Println("Reading Custom Array Value :", customArr)
+	number := 10000000
+	better := 10_000_000
+
+	fmt.Println(number)      // true
+	fmt.Printf("%v", better) // true
 }
 
 func example4() {
